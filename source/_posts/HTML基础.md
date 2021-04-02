@@ -1,16 +1,19 @@
 ---
 title: HTML基础
-date: 2020-09-07 12:16:28
+date: 2019-09-07 12:16:28
 tags: HTML
 categories: 前端基础
 ---
+&emsp;&emsp;本章着重复习Html的基础内容，学习Html究竟要学些什么呢？主要是学习各种标签，来搭建网页的“结构”。✨✨
+&emsp;&emsp;本篇文章主要由五个章节构成，从WEB标准到初识HTML，接着学习HTML常用标签，最后学习表格列表和表单💪💪开始充电之旅啦~~~
+<!--more-->
 ####  一、 认识WEB
 
-「网页」主要是由文字、图像和超链接等元素构成，当然除了这些元素，网页中还可以包括音频、视频以及Flash等。
+<font color=#9368d7 size=4 face="黑体">「网页」</font> 主要是由文字、图像和超链接等元素构成，当然除了这些元素，网页中还可以包括音频、视频以及Flash等。
 
-「浏览器」是网页显示、运行的平台。
+<font color=#9368d7 size=4 face="黑体">「浏览器」</font> 是网页显示、运行的平台。
 
-「浏览器内核」(排版引擎、解释引擎、渲染引擎)
+<font color=#9368d7 size=4 face="黑体">「浏览器内核」</font> (排版引擎、解释引擎、渲染引擎)
 >负责读取网页内容，整理讯息，计算网页的显示方式并显示页面。
 
 |浏览器 |内核 | 备注 |
@@ -21,14 +24,14 @@ categories: 前端基础
 | chrome | Chromium/Blink | 在 Chromium 项目中研发 Blink 渲染引擎（即浏览器核心），内置于 Chrome 浏览器之中。Blink 其实是 WebKit 的分支。大部分国产浏览器最新版都采用Blink内核。二次开发 |
 | Opera | blink | 现在跟随chrome用blink内核。 |
 ##### Web标准
-「构成」👉 结构标准，表现标准和行为标准
+<font color=#9368d7 size=4 face="黑体">「构成」</font> 👉 结构标准，表现标准和行为标准
 
 *  <u>结构标准</u> 用于对网页元素进行整理和分类(HTML)
 *  <u>表现标准</u> 用于设置网页元素的版式、颜色、大小等外观属性(CSS)
 * <u> 行为标准</u> 用于对网页模型的定义及交互的编写(JavaScript)
 
 
-「Web标准的优点」👇
+<font color=#9368d7 size=4 face="黑体">「Web标准的优点」</font> 👇
 
 易于维护：只需更改CSS文件，就可以改变整站的样式
 页面响应快：HTML文档体积变小，响应时间短
@@ -41,12 +44,12 @@ categories: 前端基础
 
 ##### HTML初识
 
-「HTML」(Hyper Text Markup Language):超文本标记语言
-「所谓超文本，有2层含义：」
+<font color=#9368d7 size=4 face="黑体">「HTML」</font> (Hyper Text Markup Language):超文本标记语言
+<font color=#9368d7 size=4 face="黑体">「所谓超文本，有2层含义：」</font> 
 * 因为它可以加入图片、声音、动画、多媒体等内容（超越文本限制 ）
 * 不仅如此，它还可以从一个文件跳转到另一个文件，与世界各地主机的文件连接（超级链接文本）。
 
-「HTML骨架格式」
+<font color=#9368d7 size=4 face="黑体">「HTML骨架格式」</font> 
 ```html
  <!-- 页面中最大的标签 根标签 -->
 <html>    
@@ -61,10 +64,10 @@ categories: 前端基础
 </html>
 ```
 
-「团队约定大小写」
+<font color=#9368d7 size=4 face="黑体">「团队约定大小写」</font> 
 * HTML标签名、类名、标签属性和大部分属性值统一用小写
 
-「HTML元素标签分类」
+<font color=#9368d7 size=4 face="黑体">「HTML元素标签分类」</font> 
 
 * 常规元素(双标签)
 * 空元素(单标签)
@@ -76,7 +79,7 @@ categories: 前端基础
 空元素(单标签)  
 <标签名 />  比如 `<br />或<br>`
 
-「HTML标签关系」
+<font color=#9368d7 size=4 face="黑体">「HTML标签关系」</font> 
 * 嵌套关系父子级包含
 * 关系并列关系兄弟级并列关系
     + 如果两个标签之间的关系是嵌套关系，子元素最好缩进一个tab键的身位（一个tab是4个空格）。如果是并列关系，最好上下对齐。
@@ -84,7 +87,7 @@ categories: 前端基础
 
 ##### 文档类型<!DOCTYPE >
 
-「文档类型」用来说明你用的XHTML或者HTML是什么版本。<!DOCTYPE html>告诉浏览器按照HTML5标准解析页面。
+<font color=#9368d7 size=4 face="黑体">「文档类型」</font> 用来说明你用的XHTML或者HTML是什么版本。<!DOCTYPE html>告诉浏览器按照HTML5标准解析页面。
 
 ##### 页面语言lang
 
@@ -97,7 +100,7 @@ lang指定该html标签内容所用的语言
 ```
 
 
-「lang的作用」
+<font color=#9368d7 size=4 face="黑体">「lang的作用」</font> 
 * 根据根据lang属性来设定不同语言的css样式，或者字体
 * 告诉搜索引擎做精确的识别
 * 让语法检查程序做语言识别
@@ -107,7 +110,7 @@ lang指定该html标签内容所用的语言
 
 ##### 字符集
 
-「字符集」(Character set)是多个字符的集合,计算机要准确的处理各种字符集文字，需要进行字符编码，以便计算机能够识别和存储各种文字。
+<font color=#9368d7 size=4 face="黑体">「字符集」</font> (Character set)是多个字符的集合,计算机要准确的处理各种字符集文字，需要进行字符编码，以便计算机能够识别和存储各种文字。
 
 * UTF-8是目前最常用的字符集编码方式
 * 让 html 文件是以 UTF-8 编码保存的， 浏览器根据编码去解码对应的html内容。
@@ -116,7 +119,7 @@ lang指定该html标签内容所用的语言
 <meta charset="UTF-8" />
 ```
 
-「meta viewport的用法」
+<font color=#9368d7 size=4 face="黑体">「meta viewport的用法」</font> 
 
 &emsp;&emsp;通常viewport是指视窗、视口。浏览器上(也可能是一个app中的webview)用来显示网页的那部分区域。在移动端和pc端视口是不同的，pc端的视口是浏览器窗口区域，而在移动端有三个不同的视口概念：布局视口、视觉视口、理想视口
 
@@ -148,7 +151,7 @@ http-equiv相当于http的文件头作用，它可以向浏览器传回一些有
 * 有利于SEO，搜索引擎根据标签来确定上下文和各个关键字的权重。
 * 方便其他设备解析，如盲人阅读器根据语义渲染网页
 
-「拓展」 标签：规定页面上所有链接的默认 URL 和设置整体链接的打开状态
+<font color=#9368d7 size=4 face="黑体">「拓展」</font>  标签：规定页面上所有链接的默认 URL 和设置整体链接的打开状态
 ```html
 
 <head>    
@@ -163,7 +166,7 @@ http-equiv相当于http的文件头作用，它可以向浏览器传回一些有
 * * *
 #### HTML常用标签
 
-「1. 排版标签」主要和css搭配使用，显示网页结构的标签，是网页布局最常用的标签。
+<font color=#9368d7 size=4 face="黑体">「1. 排版标签」</font> 主要和css搭配使用，显示网页结构的标签，是网页布局最常用的标签。
 
 * 标题标签h(h1~h6)
 * 段落标签p,可以把 HTML 文档分割为若干段落
@@ -171,21 +174,21 @@ http-equiv相当于http的文件头作用，它可以向浏览器传回一些有
 * 换行标签br
 * div和span标签:是没有语义的,是我们网页布局最主要的2个盒子。
 
-「2. 样式标签」
+<font color=#9368d7 size=4 face="黑体">「2. 样式标签」</font> 
 
 * b和strong 文字以粗体显示
 * i和em 文字以斜体显示
 * s和del 文字以加删除线显示
 * u和ins 文字以加下划线显示
 
-「3. 标签属性(行内式)」
+<font color=#9368d7 size=4 face="黑体">「3. 标签属性(行内式)」</font> 
 
 使用HTML制作网页时，如果想让HTML标签提供更多的信息，可以使用HTML标签的属性加以设置。
 ```html
 <标签名 属性1="属性值1" 属性2="属性值2" …> 内容 </标签名>
 <手机 颜色="红色" 大小="5寸">  </手机>
 ```
-「4. 图像标签img」
+<font color=#9368d7 size=4 face="黑体">「4. 图像标签img」</font> 
 
 ![](https://i.loli.net/2021/04/01/WhOqPFX2EwiDZum.png)
 
@@ -197,7 +200,7 @@ http-equiv相当于http的文件头作用，它可以向浏览器传回一些有
 <img src="cz.jpg" width="300" height="300" border="3" title="这是个小蒲公英" />
 ```
 
-「5.链接标签(重点)」
+<font color=#9368d7 size=4 face="黑体">「5.链接标签(重点)」</font> 
 
 ```html
 <a href="跳转目标" target="目标窗口的弹出方式">文本或图像</a>
@@ -234,16 +237,16 @@ target="_blank" 新窗口弹出
 2. 使用<a href="#id名">链接文本</a>创建链接文本（被点击的）  
 <a href="#two"> 
 ```
-「6. 注释标签」
+<font color=#9368d7 size=4 face="黑体">「6. 注释标签」</font> 
 ```html
  <!-- 注释语句 -->      
  快捷键是：    ctrl + /         
  或者    ctrl +shift + / 
 ```
 **团队约定：** 注释内容前后各一个空格字符，注释位于要注释代码的上面，单独占一行
-「7. 路径」
+<font color=#9368d7 size=4 face="黑体">「7. 路径」</font> 
 ![](https://i.loli.net/2021/04/01/S9Arymu6MHWh1lO.jpg)
-「8. 其他知识」
+<font color=#9368d7 size=4 face="黑体">「8. 其他知识」</font> 
 
 **预格式化文本pre标签**元素中的文本通常会保留空格和换行符。而文本也会呈现为等宽字体。格式化文本就是 ，按照我们预先写好的文字格式来显示页面， 保留空格和换行等。
 
@@ -252,7 +255,7 @@ target="_blank" 新窗口弹出
 
 **什么是XHTML**
 
-* XHTML 指「可扩展超文本标签语言」（EXtensible HyperText Markup Language）。
+* XHTML 指<font color=#9368d7 size=4 face="黑体">「可扩展超文本标签语言」</font> （EXtensible HyperText Markup Language）。
 * XHTML 的目标是取代 HTML。
 * XHTML 与 HTML 4.01 几乎是相同的。
 * XHTML 是更严格更纯净的 HTML 版本。
@@ -273,9 +276,9 @@ target="_blank" 新窗口弹出
 
 #### 表格
 
-「1. 表格」
+<font color=#9368d7 size=4 face="黑体">「1. 表格」</font> 
 现在还是较为常用的一种标签，但不是用来布局，**常见显示、展示表格式数据**。因为它可以让数据显示的非常的规整，可读性非常好。**特别是后台展示数据的时候表格运用是否熟练就显得很重要**，一个清爽简约的表格能够把繁杂的数据表现得很有条理。
-「2. 创建表格」
+<font color=#9368d7 size=4 face="黑体">「2. 创建表格」</font> 
 ```html
 <table> 
     <tr>    
@@ -301,14 +304,14 @@ target="_blank" 新窗口弹出
 <table>   <caption>我是表格标题</caption></table>
 ```
 
-「3. 表格属性」
+<font color=#9368d7 size=4 face="黑体">「3. 表格属性」</font> 
 ![](https://i.loli.net/2021/04/01/RBYEhr3C7KVO56A.png)
-「4.合并单元格」,合并的顺序我们按照   先上 后下     先左  后右 的顺序 ,合并完之后需要删除多余的单元格。
+<font color=#9368d7 size=4 face="黑体">「4.合并单元格」</font> ,合并的顺序我们按照   先上 后下     先左  后右 的顺序 ,合并完之后需要删除多余的单元格。
 
 * 跨行合并：rowspan="合并单元格的个数"
 * 跨列合并：colspan="合并单元格的个数"
 
-「5.总结表格」
+<font color=#9368d7 size=4 face="黑体">「5.总结表格」</font> 
 
 | 标签名 | 定义 | 说明 |
 | --- | --- | --- |
@@ -320,7 +323,7 @@ target="_blank" 新窗口弹出
 | clospan 和 rowspan | 合并属性 | 用来合并单元格的 |
 
 
-「6.表格划分结构」
+<font color=#9368d7 size=4 face="黑体">「6.表格划分结构」</font> 
 
 &emsp;&emsp;对于比较复杂的表格，表格的结构也就相对的复杂了，所以又将表格分割成三个部分：题头、正文和脚注。而这三部分分别用:thead,tbody,tfoot来标注， 这样更好的分清表格结构。
 
@@ -335,8 +338,8 @@ target="_blank" 新窗口弹出
 
 #### 列表
 
-「列表ul」容器里面装载着结构，样式一致的文字或图表的一种形式，叫列表。列表最大的特点就是整齐 、整洁、 有序，跟表格类似，但是它可组合自由度会更高。
-「1. 无序列表 ul」
+<font color=#9368d7 size=4 face="黑体">「列表ul」</font> 容器里面装载着结构，样式一致的文字或图表的一种形式，叫列表。列表最大的特点就是整齐 、整洁、 有序，跟表格类似，但是它可组合自由度会更高。
+<font color=#9368d7 size=4 face="黑体">「1. 无序列表 ul」</font> 
 * `<ul></ul>`中只能嵌套`<li></li>`，直接在`<ul></ul>`标签中输入其他标签或者文字的做法是不被允许的。
 * `<li>`与`</li>`之间相当于一个容器，可以容纳所有元素。
 ```html
@@ -348,7 +351,7 @@ target="_blank" 新窗口弹出
 </ul>
 ```
 
-「2. 有序列表 ol」
+<font color=#9368d7 size=4 face="黑体">「2. 有序列表 ol」</font> 
 * <ol>标签中的type属性值为排序的序列号，不添加type属性时，有序列表默认从数字1开始排序。
 * 常用的type属性值分别为是1，a，A，i，I
 * <ol reversed="reversed">中的reversed属性能够让有序列表中的序列倒序排列。
@@ -360,7 +363,7 @@ target="_blank" 新窗口弹出
     <li>列表三</li>
 </ol>
 ```
-「3. 自定义列表 dl」
+<font color=#9368d7 size=4 face="黑体">「3. 自定义列表 dl」</font> 
 * 定义列表常用于对术语或名词进行解释和描述，定义列表的列表项前没有任何项目符号。
 ```html
 <dl>  
@@ -390,7 +393,7 @@ target="_blank" 新窗口弹出
 **表单域：**    
 &emsp;它相当于一个容器，用来容纳所有的表单控件和提示信息，可以通过他定义处理表单数据所用程序的url地址，以及数据提交到服务器的方法。如果不定义表单域，表单中的数据就无法传送到后台服务器。
 
-「1. input 控件」
+<font color=#9368d7 size=4 face="黑体">「1. input 控件」</font> 
 ```html
 <input type="属性值" value="你好">
 ```
@@ -440,7 +443,7 @@ target="_blank" 新窗口弹出
 | value |表单值  | 表单里面默认显示的文本 |
 | name |表单名字  | 页面中的表单很多，name主要作用就是用于区别不同的表单。 |
 | checked | 默认选中 | 表示那个单选或者复选按钮一开始就被选中了 |
-「2.  label标签」
+<font color=#9368d7 size=4 face="黑体">「2.  label标签」</font> 
 * label 标签为 input 元素定义标注（标签）。
 * label标签主要目的是为了提高用户体验。为用户提高最优秀的服务。
 **作用：**用于绑定一个表单元素, 当点击label标签的时候, 被绑定的表单元素就会获得输入焦点。
@@ -457,7 +460,7 @@ target="_blank" 新窗口弹出
  <input type="radio" name="sex"  id="sex">
 ```
 
-「3.  textarea控件(文本域)」
+<font color=#9368d7 size=4 face="黑体">「3.  textarea控件(文本域)」</font> 
 * 通过textarea控件可以轻松地创建多行文本输入框.
 * cols="每行中的字符数" rows="显示的行数"  我们实际开发不用
 ![](https://i.loli.net/2021/04/01/XkcufB5gwUTrxAK.png)
@@ -472,7 +475,7 @@ target="_blank" 新窗口弹出
 | input type="text" | 文本框 | 只能显示一行文本 | 单标签，通过value显示默认值 | 用户名、昵称、密码等 |
 | textarea | 文本域 | 可以显示多行文本 | 双标签，默认值写到标签中间 | 留言板 |
 
-「4.  select下拉列表」
+<font color=#9368d7 size=4 face="黑体">「4.  select下拉列表」</font> 
 * 如果有多个选项让用户选择，为了节约空间，我们可以使用select控件定义下拉列表。
 * 在option 中定义selected =" selected "时，当前项即为默认选中项。
 * 我们实际开发会用的比较少
@@ -641,7 +644,7 @@ target="_blank" 新窗口弹出
 
 ###### 将 HTML5 看作成开放的网络平台
 
-「什么是 HTML5 的基本构件（building block）？」
+<font color=#9368d7 size=4 face="黑体">「什么是 HTML5 的基本构件（building block）？」</font> 
 1. 语义 - 提供更准确地描述内容。
 2. 连接 - 提供新的方式与服务器通信。
 3. 离线和存储 - 允许网页在本地存储数据并有效地离线运行。
