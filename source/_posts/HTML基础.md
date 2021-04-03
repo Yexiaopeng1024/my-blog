@@ -9,7 +9,7 @@ categories: 前端基础
 <!--more-->
 ####  一、 认识WEB
 
-<font color=#9368d7 size=4 face="黑体">「网页」</font> 主要是由文字、图像和超链接等元素构成，当然除了这些元素，网页中还可以包括音频、视频以及Flash等。
+<font color=#9368d7 size=4 face="黑体">「网页」</font>主要是由文字、图像和超链接等元素构成，当然除了这些元素，网页中还可以包括音频、视频以及Flash等。
 
 <font color=#9368d7 size=4 face="黑体">「浏览器」</font> 是网页显示、运行的平台。
 

@@ -10,15 +10,14 @@ categories: 前端基础
 
 
 **工欲善其事，必先利其器，为了提高开发效率，选用VScode。**
-
-* <font color=#9368d7 size=4 face="黑体">管理-设置-常用设置-字体</font>Consolas, '微软雅黑 Light', monospace
-* <font color=#9368d7 size=4 face="黑体">Chinese</font>汉化Vscode
-* <font color=#9368d7 size=4 face="黑体">Prettier</font>格式化代码(缩进2格)
-* <font color=#9368d7 size=4 face="黑体">Auto Rename Tag</font>同步修改标签
-* <font color=#9368d7 size=4 face="黑体">HTML CSS Support</font>Html文档的CSS支持
-* <font color=#9368d7 size=4 face="黑体">HTML Snippets</font>自动输入Html标签
-* <font color=#9368d7 size=4 face="黑体">JavaScript (ES6) code snippets</font>ES6语法支持
-* <font color=#9368d7 size=4 face="黑体">open in browse</font>浏览器打开
+*  <font color=#9368d7 size=4 face="黑体"> 管理-设置-常用设置-字体</font> Consolas, '微软雅黑 Light', monospace
+*  <font color=#9368d7 size=4 face="黑体">Chinese</font> 汉化Vscode
+*  <font color=#9368d7 size=4 face="黑体">Prettier</font> 格式化代码(缩进2格)
+*  <font color=#9368d7 size=4 face="黑体">Auto Rename Tag</font>同步修改标签
+*  <font color=#9368d7 size=4 face="黑体">HTML CSS Support</font>Html文档的CSS支持
+*  <font color=#9368d7 size=4 face="黑体">HTML Snippets</font>自动输入Html标签
+*  <font color=#9368d7 size=4 face="黑体">JavaScript (ES6) code snippets</font>ES6语法支持
+*  <font color=#9368d7 size=4 face="黑体">open in browse</font>浏览器打开
 
 
 #### 编程基础
