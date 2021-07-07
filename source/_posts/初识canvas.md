@@ -1,8 +1,8 @@
 ---
 title: 初识canvas
 date: 2021-06-02 14:52:16
-tags:
-categories:
+tags: [canvas,]
+categories: 可视化
 ---
 教练！我想学canvas
 >学习资料 MDN 掘金
